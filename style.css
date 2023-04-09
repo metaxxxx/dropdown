@@ -11,15 +11,16 @@ body {
   width: 100%;
   background-color: rgb(81, 130, 194);
 }
-li {
+.menu li {
   font-size: 15px;
   display: inline-block;
   background-color: rgb(81, 130, 194);
   margin: -2px;
-  padding: 15px;
+  padding: 12px;
   margin-bottom: 2px;
-  width: 100%/6;
   border-right: 1px solid white;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .first-item {
   border-left: 1px solid white;
@@ -31,8 +32,7 @@ li a {
 .dropdown {
   position: absolute;
   top: 100%;
-  left: 0%;
-  padding: 4px 10px;
+
   visibility: none;
   opacity: 0;
   transform: scaley(0);
@@ -44,7 +44,7 @@ li a {
 }
 .dropdown-links {
   display: block;
-  width: 180%;
+  width: 65%;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
 }
@@ -73,10 +73,9 @@ li:hover {
   display: inline-block;
   background-color: rgb(132, 96, 165);
   color: #fff;
-  font-size: 30px;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
+  font-size: 40px;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
   border-radius: 40px;
-  margin-right: 5px;
 }
